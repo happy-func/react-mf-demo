@@ -579,13 +579,13 @@ module.exports = function (webpackEnv) {
             singleton: true,
             strictVersion: false,
             requiredVersion: deps.react,
-            eager: true
+            eager: false
           },
           'react-dom': {
             singleton: true,
             strictVersion: false,
             requiredVersion: deps['react-dom'],
-            eager: true
+            eager: false
           },
         },
       }),
